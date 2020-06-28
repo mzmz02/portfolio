@@ -1,6 +1,6 @@
 *{
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
 }
 
 ul{
@@ -58,7 +58,6 @@ footer h1{
 }
 
 .sns span{
-    padding-right:5px;
     cursor: pointer;
 }
 
@@ -67,10 +66,75 @@ footer h1{
 }
 
 .fa-instagram{
+    padding-right:5px;
     color:#D93177;
 }
 
 .fa-search{
+    padding-right:5px;
     color:#4cb10d;
 }
 
+.profile{
+    padding-top:10vh;
+    /* 真ん中に配置する */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-wrap: wrap;
+    background:linear-gradient(90deg,rgba(238, 240, 159, 0.5) 0%,rgba(238, 240, 159, 0.5) 40%,rgba(120, 212, 224, 0.5) 40%,rgba(120, 212, 224, 0.5) 100%);
+}
+
+.contentProfile{
+    text-align: center;
+    width:30vw;
+    padding-top:25px;
+    height:70%;
+}
+
+.contentLeft{
+    background-color: rgb(120, 212, 224);
+    color:rgb(240, 235, 159);
+}
+
+.contentLeft h1{
+    font-size: 70px;
+}
+
+.contentLeft img{
+    padding-top:20px;
+    width:50%;
+    border-radius: 50px;
+}
+
+/* SNSのアイコン */
+.contentLeft span{
+    padding-top:10px;
+    font-size:50px;
+    padding-left:10px;
+    cursor: pointer;
+}
+
+.contentRight{
+    background-color:rgb(238, 240, 159);
+    color:rgb(120, 174, 224);
+}
+
+.contentRight h1{
+    padding-top:20px;
+    font-size: 70px;
+}
+
+/* リンク */
+.contentRight a{
+    padding-right:20px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+/* 自己紹介文 */
+.contentRight p{
+    text-align: center;
+    padding:20px 40px;
+}
