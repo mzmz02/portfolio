@@ -29,7 +29,7 @@ nav{
 }
 
 nav li{
-    font-size:20px;
+    font-size:28px;
     line-height: 10vh;
     padding-right:20px;
     float:left;
@@ -59,4 +59,18 @@ footer h1{
 
 .sns span{
     padding-right:5px;
+    cursor: pointer;
 }
+
+.fa-twitter{
+    color:#1DA1F2;
+}
+
+.fa-instagram{
+    color:#D93177;
+}
+
+.fa-search{
+    color:#4cb10d;
+}
+
