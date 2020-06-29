@@ -16,10 +16,11 @@ header{
     z-index: 2;
 }
 
-header h1{
+.topButton{
     float: left;
     line-height: 10vh;
     padding-left: 10px;
+    cursor: pointer;
 }
 
 nav{
@@ -38,11 +39,9 @@ nav li{
 footer{
     bottom:0;
     width:100%;
-    height:10vh;
+    height:100px;
     color:rgb(137, 175, 219);
     background-color: antiquewhite;
-    position: fixed;
-    z-index: 2;
 }
 
 footer h1{
@@ -83,7 +82,7 @@ footer h1{
     align-items: center;
     height: 80vh;
     flex-wrap: wrap;
-    background:linear-gradient(90deg,rgba(238, 240, 159, 0.5) 0%,rgba(238, 240, 159, 0.5) 40%,rgba(120, 212, 224, 0.5) 40%,rgba(120, 212, 224, 0.5) 100%);
+    background:linear-gradient(90deg,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
 }
 
 .contentProfile{
@@ -94,12 +93,15 @@ footer h1{
 }
 
 .contentLeft{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: rgb(120, 212, 224);
     color:rgb(240, 235, 159);
 }
 
 .contentLeft h1{
-    font-size: 70px;
+    padding-top:20px;
+    font-size: 60px;
 }
 
 .contentLeft img{
@@ -116,7 +118,17 @@ footer h1{
     cursor: pointer;
 }
 
+.smallQiita{
+    font-size:20px;
+}
+
+.fa-envelope{
+    color:rgb(68, 68, 211);
+}
+
 .contentRight{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color:rgb(238, 240, 159);
     color:rgb(120, 174, 224);
 }
@@ -137,4 +149,49 @@ footer h1{
 .contentRight p{
     text-align: center;
     padding:20px 40px;
+}
+
+.skill{
+    /* 真ん中に配置する */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-wrap: wrap;
+    background:linear-gradient(90deg,rgb(227, 246, 245) 0%,rgb(227, 246, 245) 60%,rgb(255, 246, 199) 60%,rgb(255, 246, 199) 100%);
+}
+
+.skill h1, h2{
+    text-align: center;
+    padding-top:20px;
+    
+}
+
+.skill h1, .skill h1 span{
+    font-size:60px;
+    color:rgb(120, 153, 224);
+}
+
+.skill span{
+    font-size:30px;
+}
+
+.htmlCSS{
+    border-radius: 20px;
+    margin-top:20px;
+    padding:20px 0;
+    text-align: center;
+    width:40vw;
+    color:rgb(120, 153, 224);
+    background-color: #bae8e8;
+}
+
+.skillOthers{
+    border-radius: 20px;
+    margin-top:20px;
+    padding:20px 0;
+    text-align: center;
+    width:40vw;
+    color:rgb(120, 153, 224);
+    background-color: #faea92;
 }
