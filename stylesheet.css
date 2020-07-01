@@ -82,7 +82,7 @@ footer h1{
     align-items: center;
     height: 80vh;
     flex-wrap: wrap;
-    background:linear-gradient(90deg,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
+    background:linear-gradient(to right,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
 }
 
 .contentProfile{
@@ -158,7 +158,7 @@ footer h1{
     align-items: center;
     height: 80vh;
     flex-wrap: wrap;
-    background:linear-gradient(90deg,rgb(227, 246, 245) 0%,rgb(227, 246, 245) 60%,rgb(255, 246, 199) 60%,rgb(255, 246, 199) 100%);
+    background:linear-gradient(to right,rgb(227, 246, 245) 0%,rgb(227, 246, 245) 60%,rgb(255, 246, 199) 60%,rgb(255, 246, 199) 100%);
 }
 
 .skill h1, h2{
