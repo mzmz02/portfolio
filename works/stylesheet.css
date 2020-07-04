@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    width:100%;
+    height:10vh;
+    color:rgb(137, 175, 219);
+    background-color: antiquewhite;
+    position: fixed;
+    z-index: 2;
+}
+
+.topButton{
+    float: left;
+    line-height: 10vh;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+nav{
+    float: right;
+    cursor: pointer;
+    padding-right:20px;
+}
+
+nav li{
+    font-size:28px;
+    line-height: 10vh;
+    padding-right:20px;
+    float:left;
+}
+
+nav a{
+    color:rgb(137, 175, 219);
+}
+
+
+footer{
+    bottom:0;
+    width:100%;
+    height:10vh;
+    color:rgb(137, 175, 219);
+    background-color: antiquewhite;
+}
+
+footer h1{
+    line-height: 10vh;
+    float:left;
+}
+
+.sns{
+    font-size:30px;
+    text-align: center;
+    padding:10px 20px 0 0;
+    float:right;
+}
+
+.sns span{
+    cursor: pointer;
+}
+
+.fa-twitter{
+    color:#1DA1F2;
+}
+
+.fa-instagram{
+    padding-right:5px;
+    color:#D93177;
+}
+
+.fa-search{
+    padding-right:5px;
+    color:#4cb10d;
+}
+
+.content{
+    padding-top:100px;
+    background:linear-gradient(to right,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
+}
+
+.content h1{
+    padding-top:10px;
+    text-align: center;
+    font-size:88px;
+    color:rgb(120, 162, 224);
+}
+
+.contentWorks{
+    /* 真ん中に配置する */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio, .travel{
+    width:700px;
+    height:600px;
+    text-align: center;
+    padding:10px;
+}
+
+.buttonPortfolio{
+    height:300px;
+    cursor: pointer;
+    padding:5px;
+    background-color: white;
+    box-shadow: 10px 10px rgb(120, 162, 224);
+}
+
+.buttonTravel{
+    height:300px;
+    cursor: pointer;
+    padding:5px;
+    background-color: white;
+    box-shadow: 10px 10px rgb(120, 162, 224);
+}
+
+.buttonPortfolio:hover, 
+.buttonTravel:hover{
+    cursor: pointer;
+    /* 拡大する */
+    transform: scale(1.1);
+}
+
+.buttonPortfolio:active, 
+.buttonTravel:active {
+    position: relative;
+    top: 10px;
+    left:10px;
+    box-shadow: none;
+}
+
+.pop_up{
+    display:none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(227, 246, 245, 0.6);
+    z-index: 2;
+}
+
+.contentCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.contentPopup{
+    top:30vh;
+    padding:20px;
+    background-color: rgb(227, 246, 245);
+    position: fixed;
+    z-index: 2;
+}
+
+.contentPopup img{
+    cursor: pointer;
+    width:500px;
+}
