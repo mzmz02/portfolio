@@ -98,7 +98,7 @@
     }
 }
 
-@media screen and (max-width: 834px) { 
+@media screen and (min-width: 481px) { 
     .navButton{
         visibility: visible
     }
