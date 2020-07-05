@@ -29,7 +29,7 @@
 }
 
 
-@media all and (max-width: 800px){
+@media screen and (min-width:0) and (max-width:1000px){
 
     nav{
         display:inline-block;
@@ -42,7 +42,7 @@
 
 }
 
-@media all and (max-width: 700px){
+@media screen and (min-width:0) and (max-width:670px){
 
     .navButton{
         visibility: visible
