@@ -97,3 +97,24 @@
         background-color: rgba(250, 235, 215, 0.8);
     }
 }
+
+@media screen and (max-width: 480px) { 
+    .navButton{
+        visibility: visible
+    }
+
+    nav{
+        display:none;
+        margin-top:80px;
+        width:40vw;
+        padding:0;
+    }
+
+    nav li{
+        text-align: center;
+        float: none;
+        cursor: pointer;
+        background-color: rgba(250, 235, 215, 0.8);
+    }
+
+}
