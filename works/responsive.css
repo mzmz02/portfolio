@@ -1,0 +1,70 @@
+@media all and (max-width: 1500px){
+
+    .buttonPortfolio, .buttonTravel{
+        height:250px;
+    }
+
+}
+
+@media all and (max-width: 1300px){
+
+    .contentWorks{
+        flex-direction: column;
+    }
+
+    .portfolio, .travel{
+        text-align: center;
+        padding:10px;
+    }
+
+    .travel{
+        margin-top:100px;
+    }
+
+    .buttonPortfolio, .buttonTravel{
+        width:700px;
+        height:300px;
+    }
+
+}
+
+
+@media all and (max-width: 800px){
+
+    nav{
+        display:inline-block;
+    }
+
+    .buttonPortfolio, .buttonTravel{
+        width:600px;
+        height:330px;
+    }
+
+}
+
+@media all and (max-width: 700px){
+
+    .navButton{
+        visibility: visible
+    }
+
+    nav{
+        display:none;
+        margin-top:80px;
+        width:40vw;
+        padding:0;
+    }
+
+    nav li{
+        text-align: center;
+        float: none;
+        cursor: pointer;
+        background-color: rgba(250, 235, 215, 0.8);
+    }
+
+    .buttonPortfolio, .buttonTravel{
+        width:400px;
+        height:200px;
+    }
+
+}

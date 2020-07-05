@@ -27,6 +27,15 @@ header{
     cursor: pointer;
 }
 
+.navButton{
+    visibility: hidden;
+    font-size:4em;
+    padding:20px 20px 0 0;
+    cursor:pointer;
+    position: absolute;
+    right:0;
+}
+
 nav{
     float: right;
     cursor: pointer;
@@ -48,7 +57,7 @@ nav a{
 footer{
     bottom:0;
     width:100%;
-    height:10vh;
+    height:100px;
     color:rgb(137, 175, 219);
     background-color: antiquewhite;
 }
@@ -88,11 +97,12 @@ footer h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1200px;
+    height: 80%;
     flex-wrap: wrap;
     text-align: center;
     background:linear-gradient(to right,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
-    /* background:linear-gradient(to right,rgb(227, 246, 245) 0%,rgb(227, 246, 245) 60%,rgb(255, 246, 199) 60%,rgb(255, 246, 199) 100%); */
+    padding-bottom:40px;
+    padding-top:150px;
 }
 
 .contentResume{

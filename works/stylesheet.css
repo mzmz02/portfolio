@@ -27,6 +27,15 @@ header{
     cursor: pointer;
 }
 
+.navButton{
+    visibility: hidden;
+    font-size:4em;
+    padding:20px 20px 0 0;
+    cursor:pointer;
+    position: absolute;
+    right:0;
+}
+
 nav{
     float: right;
     cursor: pointer;
@@ -48,7 +57,7 @@ nav a{
 footer{
     bottom:0;
     width:100%;
-    height:10vh;
+    height:100px;
     color:rgb(137, 175, 219);
     background-color: antiquewhite;
 }
@@ -84,7 +93,9 @@ footer h1{
 }
 
 .content{
+    height:80%;
     padding-top:100px;
+    padding-bottom:100px;
     background:linear-gradient(to right,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
 }
 
@@ -103,10 +114,12 @@ footer h1{
 }
 
 .portfolio, .travel{
-    width:700px;
-    height:600px;
     text-align: center;
     padding:10px;
+}
+
+.travel{
+    padding-left:40px;
 }
 
 .buttonPortfolio{
@@ -138,6 +151,7 @@ footer h1{
     top: 10px;
     left:10px;
     box-shadow: none;
+    transform: scale(1.1);
 }
 
 .pop_up{
