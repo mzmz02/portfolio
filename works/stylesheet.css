@@ -172,8 +172,8 @@ footer h1{
 }
 
 .contentPopup{
-    top:30vh;
-    padding:20px;
+    top:15%;
+    padding:50px;
     background-color: rgb(227, 246, 245);
     position: fixed;
     z-index: 2;
@@ -182,4 +182,19 @@ footer h1{
 .contentPopup img{
     cursor: pointer;
     width:500px;
+    background-color: white;
+    padding:5px;
+}
+
+.contentPopup img:hover{
+    transform: scale(1.1);
+}
+
+.contentPopup h2{
+    padding-top:20px;
+}
+
+.github, .github:visited{
+    color:blue;
+    text-decoration: underline blue;
 }
