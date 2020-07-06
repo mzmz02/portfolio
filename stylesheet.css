@@ -13,7 +13,7 @@ ul{
 
 header{
     width:100%;
-    height:10vh;
+    height:100px;
     color:rgb(137, 175, 219);
     background-color: antiquewhite;
     position: fixed;
@@ -22,7 +22,7 @@ header{
 
 .topButton{
     float: left;
-    line-height: 10vh;
+    line-height: 100px;
     padding-left: 10px;
     cursor: pointer;
 }
@@ -43,7 +43,7 @@ nav{
 
 nav li{
     font-size:28px;
-    line-height: 10vh;
+    line-height: 100px;
     padding-right:20px;
     float:left;
 }
@@ -92,12 +92,12 @@ footer h1{
 }
 
 .profile{
-    padding-top:10vh;
+    padding-top:100px;
     /* 真ん中に配置する */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 750px;
     flex-wrap: wrap;
     background:linear-gradient(to right,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
 }
@@ -124,7 +124,7 @@ footer h1{
 }
 
 .contentLeft h1{
-    padding-top:20px;
+    padding-top:10px;
     font-size: 60px;
 }
 
@@ -175,7 +175,8 @@ footer h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 80%;
+    padding-bottom:40px;
     flex-wrap: wrap;
     background:linear-gradient(to right,rgb(227, 246, 245) 0%,rgb(227, 246, 245) 60%,rgb(255, 246, 199) 60%,rgb(255, 246, 199) 100%);
 }
