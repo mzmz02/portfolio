@@ -94,7 +94,7 @@ footer h1{
 }
 
 .content{
-    height:80%;
+    height:100%;
     padding-top:100px;
     padding-bottom:100px;
     background:linear-gradient(to right,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
@@ -120,13 +120,14 @@ footer h1{
 }
 
 .travel{
-    padding-left:40px;
+    padding-left:50px;
 }
 
 .buttonPortfolio{
     height:300px;
     cursor: pointer;
     padding:5px;
+    margin-top:50px;
     background-color: white;
     box-shadow: 10px 10px rgb(120, 162, 224);
 }
@@ -135,6 +136,7 @@ footer h1{
     height:300px;
     cursor: pointer;
     padding:5px;
+    margin-top:50px;
     background-color: white;
     box-shadow: 10px 10px rgb(120, 162, 224);
 }
@@ -143,14 +145,12 @@ footer h1{
 .buttonTravel:hover{
     cursor: pointer;
     /* 拡大する */
+    box-shadow: none;
     transform: scale(1.1);
 }
 
 .buttonPortfolio:active, 
 .buttonTravel:active {
-    position: relative;
-    top: 10px;
-    left:10px;
     box-shadow: none;
     transform: scale(1.1);
 }
