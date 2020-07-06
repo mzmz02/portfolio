@@ -8,6 +8,10 @@
 
 @media all and (max-width: 1300px){
 
+    .content h1{
+        padding-top:50px;
+    }
+
     .contentWorks{
         flex-direction: column;
     }
@@ -22,6 +26,7 @@
     }
 
     .buttonPortfolio, .buttonTravel{
+        margin-top:60px;
         width:700px;
         height:300px;
     }
