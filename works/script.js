@@ -14,6 +14,10 @@ $(function(){
         $('.popTravel').fadeIn();
     });
 
+    $('.buttonRails').click(function(){
+        $('.popRails').fadeIn();
+    });
+
 
     // クリックイベント全てに対しての処理
     $(document).on('click touchend', function(event) {
@@ -23,6 +27,9 @@ $(function(){
         }
         if (!$(event.target).closest('.buttonTravel').length) {
             $('.popTravel').fadeOut();
+        }
+        if (!$(event.target).closest('.buttonRails').length) {
+            $('.popRails').fadeOut();
         }
     });
 

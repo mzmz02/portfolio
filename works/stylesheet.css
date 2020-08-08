@@ -116,9 +116,11 @@ footer h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 }
 
-.portfolio, .travel{
+.portfolio, .travel, .rails{
+    flex-basis: 500px;
     text-align: center;
     padding:10px;
 }
@@ -127,7 +129,7 @@ footer h1{
     padding-left:50px;
 }
 
-.buttonPortfolio{
+.buttonPortfolio, .buttonTravel, .buttonRails{
     height:300px;
     cursor: pointer;
     padding:5px;
@@ -136,25 +138,19 @@ footer h1{
     box-shadow: 10px 10px rgb(120, 162, 224);
 }
 
-.buttonTravel{
-    height:300px;
-    cursor: pointer;
-    padding:5px;
-    margin-top:50px;
-    background-color: white;
-    box-shadow: 10px 10px rgb(120, 162, 224);
-}
 
 .buttonPortfolio:hover, 
-.buttonTravel:hover{
+.buttonTravel:hover,
+.buttonRails:hover{
     cursor: pointer;
-    /* 拡大する */
     box-shadow: none;
+     /* 拡大する */
     transform: scale(1.1);
 }
 
 .buttonPortfolio:active, 
-.buttonTravel:active {
+.buttonTravel:active,
+.buttonRails:active {
     box-shadow: none;
     transform: scale(1.1);
 }
