@@ -125,11 +125,13 @@ footer h1{
     padding:10px;
 }
 
-.travel{
+.travel, .rails{
     padding-left:50px;
 }
 
 .buttonPortfolio, .buttonTravel, .buttonRails{
+    width:500px;
+    height:250px;
     cursor: pointer;
     padding:5px;
     margin-top:50px;
