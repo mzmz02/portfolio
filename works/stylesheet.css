@@ -130,7 +130,6 @@ footer h1{
 }
 
 .buttonPortfolio, .buttonTravel, .buttonRails{
-    height:300px;
     cursor: pointer;
     padding:5px;
     margin-top:50px;
