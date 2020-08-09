@@ -1,5 +1,7 @@
 # Portfolio
 自分のポートフォリオ
+<img width="939" alt="portfolio" src="https://user-images.githubusercontent.com/65856455/89713067-1fe8d900-d9d0-11ea-802d-f7ec9f00aa8b.PNG">
+
 
 # Dependency
 HTML/CSS/jQueryを用いている。
