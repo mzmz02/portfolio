@@ -1,79 +1,79 @@
-@media all and (max-width: 1500px){
+@media all and (max-width: 1500px) {
 
-    .buttonPortfolio, .buttonTravel{
-        height:250px;
+    .buttonPortfolio, .buttonTravel {
+        height: 250px;
     }
 
 }
 
-@media all and (max-width: 1300px){
+@media all and (max-width: 1300px) {
 
-    .content h1{
-        padding-top:50px;
+    .content h1 {
+        padding-top: 50px;
     }
 
-    .contentWorks{
+    .contentWorks {
         flex-direction: column;
     }
 
-    .portfolio, .travel{
+    .portfolio, .travel {
         text-align: center;
-        padding:10px;
+        padding: 10px;
     }
 
-    .travel, .rails{
-        margin-top:100px;
+    .travel, .rails {
+        margin-top: 100px;
     }
 
-    .buttonPortfolio, .buttonTravel, .buttonRails{
-        margin-top:60px;
-        width:700px;
-        height:350px;
-    }
-
-}
-
-
-@media all and (min-width:0) and (max-width:1000px){
-
-    nav{
-        display:inline-block;
-    }
-
-    .buttonPortfolio, .buttonTravel, .buttonRails{
-        width:600px;
-        height:330px;
+    .buttonPortfolio, .buttonTravel, .buttonRails {
+        margin-top: 60px;
+        width: 700px;
+        height: 350px;
     }
 
 }
 
-@media all and (min-width:0) and (max-width:670px){
 
-    .navButton{
+@media all and (min-width:0) and (max-width:1000px) {
+
+    nav {
+        display: inline-block;
+    }
+
+    .buttonPortfolio, .buttonTravel, .buttonRails {
+        width: 600px;
+        height: 330px;
+    }
+
+}
+
+@media all and (min-width:0) and (max-width:670px) {
+
+    .navButton {
         visibility: visible
     }
 
-    nav{
-        display:none;
-        margin-top:80px;
-        width:40vw;
-        padding:0;
+    nav {
+        display: none;
+        margin-top: 80px;
+        width: 40vw;
+        padding: 0;
     }
 
-    nav li{
+    nav li {
         text-align: center;
         float: none;
         cursor: pointer;
         background-color: rgba(250, 235, 215, 0.8);
     }
 
-    .travel, .rails{
-        margin-top:0px;
+    .travel, .rails {
+        margin-top: 0px;
     }
 
-    .buttonPortfolio, .buttonTravel,.buttonRails{
-        width:400px;
-        height:200px;
+    .buttonPortfolio, .buttonTravel,.buttonRails {
+        width: 400px;
+        height: 200px;
     }
 
 }

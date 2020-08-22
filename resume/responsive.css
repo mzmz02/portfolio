@@ -1,32 +1,32 @@
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
 
-    nav{
-        display:inline-block;
+    nav {
+        display: inline-block;
     }
 
 }
 
-@media all and (min-width:0) and (max-width:670px){
+@media all and (min-width:0) and (max-width:670px) {
 
-    .navButton{
+    .navButton {
         visibility: visible
     }
 
-    nav{
-        display:none;
-        margin-top:80px;
-        width:40vw;
-        padding:0;
+    nav {
+        display: none;
+        margin-top: 80px;
+        width: 40vw;
+        padding: 0;
     }
 
-    nav li{
+    nav li {
         text-align: center;
         float: none;
         cursor: pointer;
         background-color: rgba(250, 235, 215, 0.8);
     }
 
-    .content p{
-        padding:0 20px;
+    .content p {
+        padding: 0 20px;
     }
 }

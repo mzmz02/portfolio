@@ -1,221 +1,221 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-header{
-    width:100%;
-    height:100px;
+header {
+    width: 100%;
+    height: 100px;
     color:rgb(137, 175, 219);
     background-color: antiquewhite;
     position: fixed;
     z-index: 2;
 }
 
-.topButton{
+.topButton {
     float: left;
     line-height: 100px;
     padding-left: 10px;
     cursor: pointer;
 }
 
-.navButton{
+.navButton {
     visibility: hidden;
-    font-size:4em;
-    padding:20px 20px 0 0;
-    cursor:pointer;
+    font-size: 4em;
+    padding: 20px 20px 0 0;
+    cursor: pointer;
     position: absolute;
-    right:0;
+    right: 0;
 }
 
-nav{
+nav {
     float: right;
-    padding-right:20px;
+    padding-right: 20px;
 }
 
-nav li{
-    font-size:28px;
+nav li {
+    font-size: 28px;
     line-height: 100px;
-    padding-right:20px;
-    float:left;
+    padding-right: 20px;
+    float: left;
 }
 
-nav a{
+nav a {
     color:rgb(137, 175, 219);
 }
 
-footer{
-    bottom:0;
-    width:100%;
-    height:100px;
+footer {
+    bottom: 0;
+    width: 100%;
+    height: 100px;
     color:rgb(137, 175, 219);
     background-color: antiquewhite;
 }
 
-footer h1{
-    padding:10px 20px 0 0;
+footer h1 {
+    padding: 10px 20px 0 0;
     line-height: 100px;
-    float:left;
+    float: left;
 }
 
-.sns{
-    font-size:30px;
+.sns {
+    font-size: 30px;
     text-align: center;
-    padding:10px 20px 0 0;
-    float:right;
+    padding: 10px 20px 0 0;
+    float: right;
 }
 
-.sns span{
+.sns span {
     cursor: pointer;
 }
 
-.fa-twitter{
+.fa-twitter {
     color:#1DA1F2;
 }
 
-.fa-instagram{
-    padding-right:5px;
+.fa-instagram {
+    padding-right: 5px;
     color:#D93177;
 }
 
-.fa-search{
-    padding-right:5px;
+.fa-search {
+    padding-right: 5px;
     color:#4cb10d;
 }
 
-.profile{
-    padding-top:100px;
+.profile {
+    padding-top: 100px;
     /* 真ん中に配置する */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 750px;
     flex-wrap: wrap;
-    background:linear-gradient(to right,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
+    background: linear-gradient(to right,rgba(238, 240, 159, 0.4) 0%,rgba(238, 240, 159, 0.4) 40%,rgba(120, 212, 224, 0.4) 40%,rgba(120, 212, 224, 0.4) 100%);
 }
 
-.contentProfile{
+.contentProfile {
     text-align: center;
-    width:30vw;
-    padding-top:25px;
-    padding-bottom:25px;
-    height:70%;
+    width: 30vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 70%;
 }
 
-.contentLeft{
+.contentLeft {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: rgb(120, 212, 224);
     color:rgb(240, 235, 159);
 }
 
-.contentLeft img{
-    padding-top:20px;
-    width:50%;
+.contentLeft img {
+    padding-top: 20px;
+    width: 50%;
     border-radius: 50px;
 }
 
-.contentLeft h1{
-    padding-top:10px;
+.contentLeft h1 {
+    padding-top: 10px;
     font-size: 60px;
 }
 
 /* SNSのアイコン */
-.contentLeft span{
-    padding-top:10px;
-    font-size:50px;
-    padding-left:10px;
+.contentLeft span {
+    padding-top: 10px;
+    font-size: 50px;
+    padding-left: 10px;
     cursor: pointer;
 }
 
-.smallQiita{
-    font-size:20px;
+.smallQiita {
+    font-size: 20px;
 }
 
-.fa-envelope{
+.fa-envelope {
     color:rgb(68, 68, 211);
 }
 
-.contentRight{
+.contentRight {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color:rgb(238, 240, 159);
     color:rgb(120, 174, 224);
 }
 
-.contentRight h1{
-    padding-top:20px;
+.contentRight h1 {
+    padding-top: 20px;
     font-size: 70px;
 }
 
 /* リンク */
-.contentRight a{
+.contentRight a {
     color:rgb(120, 174, 224);
-    padding-right:20px;
+    padding-right: 20px;
     font-size: 36px;
     cursor: pointer;
 }
 
 /* 自己紹介文 */
-.contentRight p{
+.contentRight p {
     text-align: center;
-    padding:20px 40px;
+    padding: 20px 40px;
 }
 
-.skill{
+.skill {
     /* 真ん中に配置する */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80%;
-    padding-bottom:40px;
+    padding-bottom: 40px;
     flex-wrap: wrap;
-    background:linear-gradient(to right,rgb(227, 246, 245) 0%,rgb(227, 246, 245) 60%,rgb(255, 246, 199) 60%,rgb(255, 246, 199) 100%);
+    background: linear-gradient(to right,rgb(227, 246, 245) 0%,rgb(227, 246, 245) 60%,rgb(255, 246, 199) 60%,rgb(255, 246, 199) 100%);
 }
 
-.skill h1, h2{
+.skill h1, h2 {
     text-align: center;
-    padding-top:20px;
+    padding-top: 20px;
     
 }
 
-.skill h1, .skill h1 span{
-    font-size:60px;
+.skill h1, .skill h1 span {
+    font-size: 60px;
     color:rgb(120, 153, 224);
 }
 
-.skill span{
-    font-size:30px;
+.skill span {
+    font-size: 30px;
 }
 
-.htmlCSS{
+.htmlCSS {
     border-radius: 20px;
-    margin-top:20px;
-    padding:20px 0;
+    margin-top: 20px;
+    padding: 20px 0;
     text-align: center;
-    width:40vw;
+    width: 40vw;
     color:rgb(120, 153, 224);
     background-color: #bae8e8;
 }
 
-.skillOthers{
+.skillOthers {
     border-radius: 20px;
-    margin-top:20px;
-    padding:20px 0;
+    margin-top: 20px;
+    padding: 20px 0;
     text-align: center;
-    width:40vw;
+    width: 40vw;
     color:rgb(120, 153, 224);
     background-color: #faea92;
 }
